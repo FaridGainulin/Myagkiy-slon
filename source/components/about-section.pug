@@ -1,0 +1,102 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      h2.about-section__title.font-w-bold.font-s-48.text-up.text-center
+        | Высокое качество 
+        span.color-sea в кратчайшие сроки
+      .about-section__block-about.font-s-18
+        | Компания 
+        span.font-w-bold «МЯГКИЙ СЛОН» 
+        | с 2018 года успешно 
+        br.no-br-xxl
+        | занимается ремонтом и перетяжкой мебели. Мы помогаем 
+        br.no-br-xxl
+        | всем желающим вернуть их мебели заводской лоск.
+        .about-section__block-about-sub
+          | Наши конкурентные преимущества — это высокое 
+          br.no-br-xxl
+          | качество работы в кратчайшие сроки, также мы не берем 
+          br.no-br-xxl
+          | предоплаты, что помогает нам привлечь больше клиентов.
+      .about-section__block-description.font-w-medium.font-s-22
+        img.about-section__desc-icon(src="images/about-section-desc-icon.svg" loading="lazy" width="30" height="30" alt="icon")
+        | За шесть лет работы мы накопили большой 
+        br.no-br-md
+        | опыт и с удовольствием передадим его 
+        br.no-br-md
+        | вам, поэтому мы приглашаем вас к 
+        br.no-br-md
+        | взаимовыгодному сотрудничеству.
+      .swiper-bullet
+        .about-section__cards.swiper-wrapper
+          .about-section__card.swiper-slide.about-section__card-1
+            img.about-section__card-img(src="images/about-section-img-1.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-2.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-3.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-4.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-5.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-6.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-7.jpg" loading="lazy" width="560" height="444" alt="image")
+          .about-section__card.swiper-slide
+            img.about-section__card-img(src="images/about-section-img-8.jpg" loading="lazy" width="560" height="444" alt="image")
+        .bullet-pagination
+  .about-section__bottom
+    .about-section__bottom-title.font-w-bold.font-s-36
+      span.color-sea 4 причины 
+      | открыть свою 
+      br.no-br
+      | мастерскую «МЯГКИЙ СЛОН»
+    .swiper-bullet
+      .about-section__bottom-cards.swiper-wrapper
+        .about-section__bottom-card.swiper-slide
+          img.about-section__bottom-card-icon(src="images/about-section-icon-1.svg" loading="lazy" width="100" height="100" alt="icon")
+          .about-section__bottom-card-text.font-w-medium.font-s-18
+            | Стабильно высокий 
+            br.no-br
+            | спрос и широкие 
+            br.no-br
+            | возможности
+        .about-section__bottom-card.swiper-slide
+          img.about-section__bottom-card-icon(src="images/about-section-icon-2.svg" loading="lazy" width="100" height="100" alt="icon")
+          .about-section__bottom-card-text.font-w-medium.font-s-18
+            | Большая 
+            br.no-br
+            | маржинальность и 
+            br.no-br
+            | высокая рентабельность
+        .about-section__bottom-card.swiper-slide
+          img.about-section__bottom-card-icon(src="images/about-section-icon-3.svg" loading="lazy" width="100" height="100" alt="icon")
+          .about-section__bottom-card-text.font-w-medium.font-s-18
+            | Надёжная и 
+            br.no-br
+            | проверенная 
+            br.no-br
+            | финансовая модель
+        .about-section__bottom-card.swiper-slide
+          img.about-section__bottom-card-icon(src="images/about-section-icon-4.svg" loading="lazy" width="100" height="100" alt="icon")
+          .about-section__bottom-card-text.font-w-medium.font-s-18
+            | Самореализация 
+            br
+            | и статус хозяина 
+            br.no-br
+            | бизнеса
+      .bullet-pagination
+    .about-section__bottom-sub-title.font-w-medium.font-s-30
+      | Узнайте о других преимуществах 
+      br
+      | бизнеса по франшизе 
+      span.color-sea.font-w-bold «МЯГКИЙ СЛОН»
+    .font-s-18 Скачайте подробную презентацию
+    form.about-section__form(data-feedback-form)
+      input(type="text" name="honeyfield" class="honeypot" style="display:none")
+      input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+      input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+      button.btn(type="submit") СКАЧАТЬ
+    .about-section__agree-wrapper
+      include ../components/agree.pug

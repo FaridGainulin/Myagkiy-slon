@@ -1,0 +1,19 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h1.city-section__title.font-w-bold.font-s-60.text-up
+        | Начните свой бизнес 
+        br
+        span.color-sea прямо сейчас
+      .city-section__sub-title.font-w-medium.font-s-30
+        | Проверьте, свободен ли 
+        span.color-orange.font-w-bold ваш город 
+        br
+        | для работы по франшизе
+      form.city-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="city" autocomplete="off" placeholder="Ваш город")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn(type="submit") ПРОВЕРИТЬ
+      .city-section__agree-wrapper
+        include ../components/agree.pug

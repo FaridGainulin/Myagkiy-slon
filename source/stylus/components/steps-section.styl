@@ -1,0 +1,174 @@
+.steps-section
+  // background-image: url('../images/steps-section-bg.jpg')
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  background-color #F7F9FD
+
+  &__container
+    position relative
+    padding 20px 0 0 0
+    +above($breakpoints.sm)
+      padding 20px 0 60px 0
+    +above($breakpoints.md)
+      padding 25px 0 90px 0
+    +above($breakpoints.xxl)
+      padding 25px 0 153px 0
+
+  &__title,
+  &__sub-title
+    text-align: center
+
+  &__sub-title
+    padding 10px 0 15px 0
+    +above($breakpoints.sm)
+      padding 15px 0 30px 0
+    +above($breakpoints.md)
+      padding 20px 0 50px 0
+    +above($breakpoints.xxl)
+      padding 25px 0 70px 0
+
+  &__cards-wrapper
+    padding 15px 0 5px 0
+    background-color #E6F0F8
+    border-radius: 10px
+    width 100%
+    +above($breakpoints.sm)
+      border-radius: 15px
+      padding 30px 0
+    +above($breakpoints.md)
+      border-radius: 20px
+      padding 40px 0
+    +above($breakpoints.xxl)
+      border-radius: 26px
+      padding 50px 0
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-wrap: wrap
+      justify-content center
+      gap: 15px 10px
+    +above($breakpoints.md)
+      gap: 20px 40px
+    +above($breakpoints.xxl)
+      gap: 22px 65px
+
+  &__card
+    width 280px !important
+    height: 50px
+    display: flex
+    align-items: center
+    justify-content center
+    gap: 10px
+    +above($breakpoints.sm)
+      width 220px !important
+      height: 60px
+      justify-content start
+      gap: 10px
+    +above($breakpoints.md)
+      width 280px !important
+      height: 70px
+      gap: 20px
+    +above($breakpoints.xxl)
+      width 330px !important
+      height: 80px
+      gap: 30px
+
+  &__card-num
+    display: flex
+    align-items: center
+    justify-content center
+    border-radius: 50%
+    border 1px solid $color-sea
+    color: $color-sea
+    width 50px
+    height: 50px
+    +above($breakpoints.sm)
+      width 60px
+      height: 60px
+    +above($breakpoints.md)
+      width 70px
+      height: 70px
+    +above($breakpoints.xxl)
+      width 80px
+      height: 80px
+
+  &__bottom
+    text-align: center
+    margin-top 15px
+    +above($breakpoints.sm)
+      text-align: start
+      margin 30px 0 0 310px
+    +above($breakpoints.md)
+      margin 60px 0 0 420px
+    +above($breakpoints.xxl)
+      margin 91px 0 0 555px
+
+  &__bottom-text
+    padding 8px 15px
+    +above($breakpoints.sm)
+      padding 8px 0 20px 0 
+    +above($breakpoints.md)
+      padding 8px 0 25px 0 
+    +above($breakpoints.xxl)
+      padding 9px 0 29px 0 
+
+  &__btn
+    width 280px !important
+    margin 0 auto
+    +above($breakpoints.sm)
+      margin 0
+    +above($breakpoints.md)
+      width 300px !important
+    +above($breakpoints.xxl)
+      width 340px !important
+
+  &__img
+    width 280px
+    height: auto
+    margin  0 auto
+    +above($breakpoints.sm)
+      margin 0
+      position: absolute
+      width: 420px;
+      bottom: 28px;
+      left: -110px;
+    +above($breakpoints.md)
+      width: 570px;
+      bottom: 45px;
+      left: -155px;
+    +above($breakpoints.xxl)
+      width 803px
+      bottom: 68px
+      left: -224px
+
+.steps-card-order-2
+  +above($breakpoints.sm)
+    order: 2
+.steps-card-order-3
+  +above($breakpoints.sm)
+    order: 3
+.steps-card-order-4
+  +above($breakpoints.sm)
+    order: 4
+.steps-card-order-5
+  +above($breakpoints.sm)
+    order: 5
+.steps-card-order-6
+  +above($breakpoints.sm)
+    order: 6
+.steps-card-order-7
+  +above($breakpoints.sm)
+    order: 7
+.steps-card-order-8
+  +above($breakpoints.sm)
+    order: 8
+.steps-card-order-9
+  +above($breakpoints.sm)
+    order: 9
+
+.steps-card-num-9
+  color: #fff
+  background-color $color-blue
+  border: none

@@ -1,0 +1,23 @@
+section.support-section
+  .wrapper
+    .support-section__container
+      h2.support-section__title.font-w-bold.font-s-48.text-up
+        | Сделайте 
+        span.color-sea первый шаг,
+      .support-section__sub-title.font-w-medium.font-s-30
+        | узнайте лучшие места для открытия 
+        br.no-br
+        span.font-w-bold.color-sea «МЯГКИЙ СЛОН»
+      .support-section__text.font-w-medium.font-s-18
+        | Просто укажите название вашего города 
+        br.no-br
+        | и получите список удачных локаций
+      form.support-section__form(data-city-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        .input.js-input-city.support-item
+          input.input.support-item.input-city-position(type="text" name="city" autocomplete="off" placeholder="Название города")
+          .input__progress.js-input-city-progress
+            span.js-input-city-percent 0%
+        button.btn.support-item(type="submit") Получить список локаций
+      img.support-section__img(src="images/support-section-img.png" loading="lazy" width="1428" height="1202" alt="image")
+      img.support-section__icon(src="images/support-section-icon.png" loading="lazy" width="298" height="86" alt="icon")

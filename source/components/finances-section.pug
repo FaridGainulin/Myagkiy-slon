@@ -1,0 +1,59 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      h2.finances-section__title.font-w-bold.font-s-48.text-up
+        | Франшиза «МЯГКИЙ СЛОН» 
+        span.color-sea в цифрах
+      .finances-section__sub-title.font-w-medium.font-s-24
+        | Сотрудничая с нами вы можете рассчитывать на:
+      .swiper-bullet
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .font-w-medium.font-s-34.color-sea от 229 000 ₽
+            .font-s-18
+              | средняя чистая 
+              br.no-br
+              | ежемесячная прибыль
+          .finances-section__card.swiper-slide
+            .font-w-medium.font-s-34.color-sea от 38,3%
+            .font-s-18
+              | рентабельность по чистой 
+              br.no-br
+              | прибыли
+          .finances-section__card.swiper-slide
+            .font-w-medium.font-s-34.color-sea от 0,65 млн ₽
+            .font-s-18
+              | первоначальные инвестиции
+          .finances-section__card.swiper-slide
+            .font-w-medium.font-s-34.color-sea 3 недели,
+            .font-s-18
+              | чтобы начать зарабатывать
+          .finances-section__card.swiper-slide
+            .font-w-medium.font-s-34.color-sea от 2,75 млн ₽
+            .font-s-18
+              | средняя чистая годовая 
+              br.no-br
+              | прибыль
+          .finances-section__card.swiper-slide
+            .font-w-medium.font-s-34.color-sea от 6 месяцев
+            .font-s-18
+              | срок окупаемости 
+              br.no-br
+              | вашего бизнеса
+        .bullet-pagination
+      img.finances-section__img(src="images/finances-section-img.jpg" loading="lazy" width="960" height="920" alt="image")
+      .finances-section__bottom
+        .font-w-medium.font-s-30
+          | Ознакомьтесь детально с финансовыми 
+          br.no-br
+          | расчётами вашего будущего бизнеса
+        .finances-section__bottom-text.font-s-18
+          | Скачайте финансовую модель 
+          span.color-sea.font-w-bold «МЯГКИЙ СЛОН»
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn(type="submit") СКАЧАТЬ
+        .finances-section__agree-wrapper
+          include ../components/agree.pug

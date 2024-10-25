@@ -1,0 +1,82 @@
+section.start-section
+  .wrapper
+    .start-section__container
+      h2.start-section__title.font-w-bold.font-s-48.text-up
+        | Откройте собственный 
+        br.no-br
+        | бизнес 
+        span.color-sea за 3 недели
+      .start-section__sub-title.font-w-medium.font-s-24
+        | Команда 
+        span.color-orange.font-w-bold «МЯГКИЙ СЛОН» 
+        | поддержит вас на всех этапах
+      .swiper-bullet
+        .start-section__cards.swiper-wrapper
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-1.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Обеспечим пошаговое 
+              br
+              | становление бизнеса
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-2.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Предоставим 
+              br
+              | дистанционное обучение
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-3.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Обучим очно 
+              br
+              | (по договоренности)
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-4.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Проведем запуск бизнеса 
+              br
+              | дистанционно
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-5.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Направим команду 
+              br
+              | специалистов для запуска 
+              br
+              | бизнеса (за доп плату)
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-6.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Обучим специфике 
+              br
+              | продаж
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-7.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Подключим к горячей 
+              br
+              | линии и закрытому 
+              br
+              | сообществу
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon-8.svg" loading="lazy" width="61" height="61" alt="icon")
+            .font-s-16
+              | Дадим любые 
+              br
+              | консультации, касающиеся 
+              br
+              | ведения бизнеса
+        .bullet-pagination
+      .start-section__bottom-title.font-w-medium.font-s-26
+        | Получите подробный план 
+        br.no-br
+        | по открытию компании 
+        span.color-sea.font-w-bold «МЯГКИЙ СЛОН»
+      form.start-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn(type="submit") Скачать презентацию
+        .start-section__agree-wrapper
+          include ../components/agree.pug
+      img.start-section__img(src="images/start-section-img.png" loading="lazy" width="1300" height="781" alt="image")

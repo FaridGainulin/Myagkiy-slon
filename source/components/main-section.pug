@@ -1,0 +1,22 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-60.text-up
+        | Откройте свою мастерскую 
+        br.no-br
+        span.color-sea по перетяжке мягкой мебели
+      .main-section__sub-title.font-w-medium.font-s-30
+        | Начните зарабатывать 
+        span.color-orange от 2,75 млн рублей в год 
+        br.no-br
+        | на услугах, актуальных в любое время
+      .main-section__text.font-s-18
+        | Получите подробный план открытия
+      form.main-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn(type="submit") Получить
+      .main-section__agree-wrapper
+        include ../components/agree.pug

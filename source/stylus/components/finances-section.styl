@@ -1,0 +1,137 @@
+.finances-section
+  // background-image: url('../images/finances-section-bg.jpg')
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  background-color #F7F9FD
+
+  &__container
+    position relative
+    padding 20px 0 0 0
+    text-align: center
+    +above($breakpoints.sm)
+      padding 50px 0 0 0
+    +above($breakpoints.md)
+      padding 80px 0 0 0
+    +above($breakpoints.xxl)
+      padding 126px 0 00
+
+  &__sub-title
+    padding 10px 0 15px 0
+    +above($breakpoints.sm)
+      padding 15px 0 30px 0
+    +above($breakpoints.md)
+      padding 20px 0 50px 0
+    +above($breakpoints.xxl)
+      padding 26px 0 70px 0
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-wrap: wrap
+      justify-content space-between
+      gap: 10px 200px
+    +above($breakpoints.md)
+      gap: 20px 300px
+    +above($breakpoints.xxl)
+      gap: 20px 520px
+
+  &__card
+    width 280px !important
+    height: 66px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content center
+    gap: 4px
+    border-radius: 10px
+    background-color $color-sky
+    +above($breakpoints.sm)
+      width: 200px !important;
+      height: 89px;
+    +above($breakpoints.md)
+      width: 262px !important;
+      height: 114px;
+    +above($breakpoints.xxl)
+      width 330px !important
+      height: 140px
+
+  &__img
+    width 280px
+    height: auto
+    margin 15px auto 0
+    border-radius: 10px !important
+    +above($breakpoints.sm)
+      margin 0
+      position: absolute
+      width 300px
+      left: 50%
+      transform: translateX(-50%)
+      top: 146px
+    +above($breakpoints.md)
+      width: 400px;
+      top: 217px;
+    +above($breakpoints.xxl)
+      width 480px
+      top: 305px
+
+  &__bottom
+    width 100%
+    border-radius: 10px
+    background-color $color-blue
+    padding 15px 10px
+    color: #fff
+    margin 15px 0 0 0
+    +above($breakpoints.sm)
+      width 620px
+      margin 30px auto 0
+      padding 20px 10px
+    +above($breakpoints.md)
+      width 760px
+      margin 50px auto 0
+      padding 25px 10px
+    +above($breakpoints.xxl)
+      width 1012px
+      height: 288px
+      margin 70px auto 0
+      border-radius: 16px
+      padding 30px 10px
+
+  &__bottom-text
+    padding 10px 0
+    +above($breakpoints.sm)
+      padding 13px 0
+    +above($breakpoints.md)
+      padding 17px 0
+    +above($breakpoints.xxl)
+      padding 20px 0
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    +above($breakpoints.sm)
+      flex-direction: row
+      justify-content center
+      gap: 8px
+    & > *
+      width 280px !important
+      +above($breakpoints.sm)
+        width 190px !important
+      +above($breakpoints.md)
+        width 220px !important
+      +above($breakpoints.xxl)
+        width 242px !important
+
+  &__agree-wrapper
+    display: flex
+    justify-content center
+    color: #7C94F0
+    margin-top 8px
+    +above($breakpoints.sm)
+      margin-top 12px
+    +above($breakpoints.md)
+      margin-top 15px
+    +above($breakpoints.xxl)
+      margin-top 18px
